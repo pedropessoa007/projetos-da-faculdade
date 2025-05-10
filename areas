@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main () {
+    double basetrianA, alttrianC, raiocircC, basetrapA,baseTrapB, alturatrapC, ladoquadB, baseretA, altretB, triangulo, circulo, trapezio, quadrado, retangulo ;
+    printf("Insira o valor da base do triangulo retangulo: ");
+    scanf("%lf", &basetrianA);
+    printf("Insira o valor da altura do triangulo retangulo: ");
+    scanf("%lf", &alttrianC);
+
+triangulo = (basetrianA*alttrianC)/2;
+
+printf("Insira o valor do raio do circulo: ")
+return 0;
+}
