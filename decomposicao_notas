@@ -1,0 +1,63 @@
+#include <stdio.h>
+
+int main () {
+    float dinheiro;
+    int A, B, C, D, E, F, G, H, L, M, N, O;
+
+    printf("Digite o valor monetario: R$");
+        scanf("%f", &dinheiro);
+
+        A = dinheiro/100;
+        dinheiro = dinheiro - (A*100);
+
+        B = dinheiro/50;
+        dinheiro = dinheiro - (B*50);
+
+        C = dinheiro/20;
+        dinheiro = dinheiro - (C*20);
+
+        D = dinheiro/10;
+        dinheiro = dinheiro - (D*10);
+
+        E = dinheiro/5;
+        dinheiro = dinheiro - (E*5);
+
+        F = dinheiro/2;
+        dinheiro = dinheiro - (F*2);
+
+        G = dinheiro/1;
+        dinheiro = dinheiro - (G*1);
+
+        H = dinheiro/0.50;
+        dinheiro = dinheiro - (H*0.50);
+
+        L = dinheiro/0.25;
+        dinheiro = dinheiro - (L*0.25);
+
+        M = dinheiro/0.10;
+        dinheiro = dinheiro - (M*0.10);
+
+        N = dinheiro/0.05;
+        dinheiro = dinheiro - (N*0.05);
+
+        O = dinheiro/0.01;
+        dinheiro = dinheiro - (O*0.01);
+
+    printf("%.2f\n", dinheiro);
+    printf("NOTAS: \n");
+    printf("%d nota(s) de R$100.00\n", A);
+    printf("%d nota(s) de R$50.00\n", B);
+    printf("%d nota(s) de R$20.00\n", C);
+    printf("%d nota(s) de R$10.00\n", D);
+    printf("%d nota(s) de R$5.00\n", E);
+    printf("%d nota(s) de R$2.00\n", F);
+    printf("MOEDAS:\n");
+    printf("%d moeda(s) de R$1.00\n", G);
+    printf("%d moeda(s) de R$0.50\n", H);
+    printf("%d moeda(s) de R$0.25\n", L);
+    printf("%d moeda(s) de R$0.10\n", M);
+    printf("%d moeda(s) de R$0.05\n", N);
+    printf("%d moeda(s) de R$0.01\n", O);
+
+return 0;
+}
